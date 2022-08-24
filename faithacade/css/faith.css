@@ -1,0 +1,390 @@
+
+.logo{
+    width: 130px;
+    height: 135px;
+    position: relative;
+    left:230px;
+    
+}
+.navbar{
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+    margin-left: 380px;
+    margin-top: -60px;
+
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    
+}
+
+ .Home{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+      background-color: transparent;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    left: 7px;
+    position: relative;
+} 
+.Home:hover{
+    background-color: skyblue;
+    transition: 3s ease;
+}
+.active{
+    background-color: #012646;
+    padding: 12px 20px 12px 20px;
+    color: #f9f9f9; 
+    font-size: 20px;
+    border: none;
+}
+.dropdown-content .active2{
+    background-color: #012646;
+    padding: 12px 20px 12px 20px;
+    color: #f9f9f9;
+    font-size: 16px;
+    border: none; 
+}
+.dropdown-content .active2:hover{
+    background-color: skyblue;
+    transition: 3s ease;
+}
+ .active:hover{
+    background-color: skyblue;
+    transition: 3s ease;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* font-size: 15px; */
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+    transition: 3s ease;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+} 
+.dropdown-content a {
+    float: none;
+    color: #012646;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* text-align: left; */
+}
+
+ .dropdown-content a:hover {
+    background-color: #ddd;
+    transition: 3s ease; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ 
+.lake{
+    position: relative;
+    font-size: 14px;
+    top: 40px;
+    background-color: inherit;
+    font-family: Arial,  ;
+    text-align: center;
+    color: #000;
+}
+/* all school */
+ .summer{
+
+    position: relative;
+    font-size: 16px;
+    color: #000; 
+ }
+ 
+    
+
+/* pritchard */
+ .spring{
+    position: relative;
+    font-size: 16px;
+    color: #000;
+}
+    
+ 
+/* elementary */
+ .winter{
+    position: relative;
+    font-size: 16px;
+    color: #000;
+} 
+/* middle school */
+ .falls{
+    position: relative;
+    font-size: 16px;
+    color: #000;
+} 
+/* highschool */
+ .dark{
+    position: relative;
+    font-size: 16px;
+    color: #000;   
+} 
+/* blue bg */
+.camp{
+     background-color: rgb(154,185, 212);
+    position: relative;
+    height: 350px;
+    width: 100%;
+    top: 50px;
+    
+}
+   /* text */
+.obi{
+    text-align: center;
+    padding-top: 15px;
+    font-family: futura-lt-w01-light, sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+/* bluebg text */
+.obi2{
+    text-align: center;
+    padding-top: -5px;
+    font-family: futura-lt-w01-light, sans-serif;
+    font-size: 36px;
+    color: rgb(154,185, 212);
+    text-decoration: none;
+}
+/* whitebg */
+.piit{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    top: 100px;
+    
+    /* justify-content: space-between; */
+    
+}
+   /* pdf images  */
+.img{
+    position: relative;
+    left: 500px;
+    margin-right: auto;
+    align-items: center;
+    justify-content: s;
+    
+    
+     
+    
+}
+/* pritchard link */
+
+.champ{
+    position: relative;
+    background-color: rgb(154,185, 212);
+    color: #012646;
+    font-size: 14px;
+    font-family: 'lora' ,serif;
+    height: 700px;
+    padding-top: 10px;
+    padding-left: 15px;
+    top: 50px;
+}
+
+.seed{
+    position: relative;
+    border: 2px solid #636363;
+    width: 100px;
+    height: 30px;
+    background-color: #012646;
+    left: 470px;
+    top: -700px;
+}
+.camp2{
+    background-color: rgb(154,185, 212);
+    position: relative;
+    height: 700px;
+    width: 100%; 
+    top: 250px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Lora',serif;
+    font-size: 20px;
+    color:#012646;
+
+} 
+.piit2{
+    position: relative;
+    /* height: 700px; */
+    width: 100%;
+    height: 550px;
+    top: 50px;  
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Lora',serif;
+    font-size: 30px;
+    color:#012646;
+}   
+
+.hush{
+position: relative;
+height: 700px;
+width: 100%;
+height: 500px;
+top: 270px;
+padding-top: 10px;
+padding-left: 15px;
+font-family: 'Lora',serif;
+font-size: 20px;
+color:#012646;
+}
+
+.good{
+    text-align: center;
+    padding-top: 50px;
+    font-family: futura-lt-w01-light, sans-serif;
+    font-size: 36px;
+    color:rgb(154,185,212); 
+}
+.img2{
+    
+    position: relative;
+    left: 470px;
+    margin-right: auto;
+    align-items: center;
+ 
+}
+.contain{
+    position: relative;
+    justify-content: space-between;
+}
+ .home2{
+font-size: 18px;
+border: none;
+outline: none;
+color: black;
+  background-color: transparent;  
+font-family: Arial, Helvetica, sans-serif;
+padding: 12px 20px;
+left: 7px;
+position: relative;
+}
+.Home2:hover{
+    background-color: skyblue;
+    transition: 3s ease;
+}
+.active3{
+    background-color: #012646;
+    padding: 12px 20px 12px 20px;
+    color: #f9f9f9; 
+    font-size: 20px;
+    border: none;
+}
+.active3:hover{
+    background-color: skyblue;
+    transition: 3s ease;
+}
+/* .cal{
+    position: relative;
+    width: 700px;
+    height:450px ;
+} */
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  position: relative;
+  padding: 70px 25px;
+  width:750px;
+  background: #1abc9c;
+  text-align: center;
+  top: -250px;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin-top: 120px ;
+  padding: 10px 0;
+  background-color:#ddd;
+  width: 95%;
+  margin-left: 25px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 20px 0;
+  background: #eee;
+  margin: 0;
+  width: 95%;
+  height: 410px;
+  margin-left: 25px;
+ margin-top: -25px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  font-size:28px;
+  color: #777;
+  padding-top: 50px;
+}
+
+ /* Highlight the "current" day */
+.days li .active {
+  padding: 10px 30px;
+  background: #012646;
+  color: white !important 
+}
